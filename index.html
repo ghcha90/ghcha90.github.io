@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko" data-lang="ko">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="media/lab-symbol-favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gyuhyon Lab · 수원대학교</title>
+<meta name="description" content="수원대학교 차규현 연구실. 하수기반역학(WBE), 환경 메타게놈, 항생제내성유전자(ARG)와 PFAS, 미생물 기반 자기치유 소재 연구.">
+<script>document.documentElement.className="js";</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-page="home">
+<noscript>이 웹사이트를 보려면 JavaScript를 활성화해 주세요. Enable JavaScript to view this website.</noscript>
+<div class="prog" id="prog"></div>
+<a class="skip" href="#main">본문 바로가기</a>
+
+<header class="topbar">
+  <div class="in">
+    <a class="brand" href="index.html" aria-label="Gyuhyon Lab home"><img class="brand-symbol" src="media/lab-symbol.svg" width="34" height="46" alt=""><span class="brand-text"><span id="brandName">Gyuhyon Lab</span><b id="brandTag">UNIVERSITY OF SUWON</b></span></a>
+    <nav aria-label="section"><ul id="navList"></ul></nav>
+    <button class="langbtn" id="lang" type="button">English</button>
+  </div>
+</header>
+
+<!-- Research-led introduction -->
+<div class="hero" id="home"><div class="hero-heading"><p class="hero-kicker">GYUHYON LAB · UNIVERSITY OF SUWON</p><h1 id="heroTitle"></h1></div><div class="hero-inner">
+ <div class="words"><div class="sub" id="heroSub"></div><div class="hero-actions"><a class="primary" href="research.html" data-i18n="연구 살펴보기 ↗|Explore our research ↗"></a><a href="join.html" data-i18n="함께 연구하기 →|Work with us →"></a></div><p class="credit" id="heroCredit"></p></div>
+ <div class="microbe-art"><img src="media/microbe-crew.png" width="1254" height="1254" fetchpriority="high" alt="DNA와 물방울, 갈라진 돌을 다루는 세 미생물 캐릭터 — Gyuhyon Lab의 미생물 크루"></div>
+</div></div>
+<div class="research-strip"><span data-i18n="현장에서 시작해|FROM THE FIELD"></span><span data-i18n="유전체로 이해하고|THROUGH THE GENOME"></span><span data-i18n="공학으로 연결합니다|INTO ENGINEERING"></span></div>
+<main id="main">
+ <section class="home-overview"><p class="eyebrow" data-i18n="연구실 둘러보기|Explore the lab"></p><h2 data-i18n="Gyuhyon Lab을 소개합니다.|Discover Gyuhyon Lab."></h2><div class="home-links">
+ <a href="research.html"><b data-i18n="연구 →|Research →"></b><span data-i18n="미생물과 환경을 연결하는 연구 질문과 접근법|Questions and approaches connecting microbes and the environment"></span></a>
+ <a href="professor.html"><b data-i18n="교수 소개 →|Professor →"></b><span data-i18n="차규현 교수의 연구 배경과 학력·경력|Gyuhyon Cha’s research background and academic career"></span></a>
+ <a href="members.html"><b data-i18n="구성원 →|Members →"></b><span data-i18n="연구실 구성원과 연구관심분야|Lab members and their research interests"></span></a>
+ <a href="projects.html"><b data-i18n="연구과제 →|Projects →"></b><span data-i18n="진행 중인 연구과제와 공동연구|Current projects and research collaborations"></span></a>
+ <a href="news.html"><b data-i18n="소식 →|News →"></b><span data-i18n="연구실의 새로운 소식과 공지|Lab updates and announcements"></span></a>
+ <a href="join.html"><b data-i18n="모집 →|Join & Contact →"></b><span data-i18n="연구 참여와 협력에 관한 문의|Get in touch about research opportunities and collaboration"></span></a>
+ </div></section>
+  <p id="loadmsg" class="loadmsg">불러오는 중…</p>
+
+  <section id="research" class="rv" hidden>
+    <p class="eyebrow" data-i18n="연구 분야|Research"></p>
+    <h2 id="researchTitle"></h2>
+    <p class="lede" id="researchLede"></p>
+    <div class="cards" id="researchCards"></div>
+  </section>
+
+  <section id="pi" class="rv" hidden>
+    <div class="prof-contact-card">
+      <div id="piPhoto"></div>
+      <div class="prof-contact-info">
+        <h2 id="piName"></h2>
+        <p class="prof-position" id="piPosition"></p>
+        <p id="piAffiliation"></p>
+        <p id="piAddress"></p>
+        <p id="piEmail"></p>
+        <p id="piPhone"></p>
+        <p id="piScholar" class="prof-links"></p>
+      </div>
+    </div>
+    <div class="prof-cv-block">
+      <h3 data-i18n="학력|Education"></h3>
+      <ul id="piEducation" class="prof-cv-list"></ul>
+    </div>
+    <div class="prof-cv-block">
+      <h3 data-i18n="경력|Professional Experience"></h3>
+      <ul id="piExperience" class="prof-cv-list"></ul>
+    </div>
+    <div class="prof-cv-block">
+      <h3 data-i18n="활동과 수상|Service and Awards"></h3>
+      <ul id="piFacts" class="prof-facts-list"></ul>
+    </div>
+  </section>
+
+  <section id="people" class="rv" hidden>
+    <p class="eyebrow" data-i18n="구성원|People"></p>
+    <h2 data-i18n="연구실 구성원|Lab members"></h2>
+    <div class="people" id="peopleGrid"></div>
+  </section>
+
+  <section id="publications" class="rv" hidden>
+    <p class="eyebrow" data-i18n="논문|Publications"></p>
+    <h2 data-i18n="학술지 게재 논문|Peer-reviewed articles"></h2>
+    <p class="lede" data-i18n="연구 질문을 방법과 성과로 연결한 논문들입니다.|Publications connecting research questions with methods and evidence."></p><div class="selected" id="selectedPapers"></div>
+    <div class="filter" id="pubFilter"></div>
+    <div id="pubList"></div>
+    <p class="note" data-i18n="† 공동 제1저자|† Equal contribution"></p>
+  </section>
+
+  <section id="projects" class="rv" hidden>
+    <p class="eyebrow" data-i18n="연구과제|Projects"></p>
+    <h2 data-i18n="진행 중인 과제|Current projects"></h2>
+    <div id="projCurrent"></div>
+    <h2 style="margin-top:44px" data-i18n="참여한 과제|Earlier projects"></h2>
+    <ul class="tl" id="projPast"></ul>
+  </section>
+
+  <section id="news" class="rv" hidden>
+    <p class="eyebrow" data-i18n="소식|News"></p>
+    <h2 data-i18n="연구실 소식|Lab news"></h2>
+    <div class="news-feed" id="newsList"></div>
+  </section>
+
+  <section id="projectHighlights" class="rv" hidden>
+    <p class="eyebrow" data-i18n="현재 진행 중인 연구|Current research"></p>
+    <h2 data-i18n="지금 탐구하는 두 가지 질문|Two questions we are pursuing"></h2>
+    <p class="lede" data-i18n="연구 목표와 추진 계획을 소개합니다.|Explore the goals and planned approach of our current projects."></p>
+    <div id="projectFeatures"></div>
+  </section>
+
+  <section id="teaching" class="rv" hidden>
+    <p class="eyebrow" data-i18n="강의|Teaching"></p>
+    <h2 data-i18n="담당 교과목|Courses"></h2>
+    <ul class="courses" id="courseList"></ul>
+  </section>
+
+  <section id="join" class="rv" hidden>
+    <div class="join">
+      <p class="eyebrow" style="background:transparent;color:#7FD1C4;border-color:#2E5A5C"
+         data-i18n="함께 연구하기|Join the lab"></p>
+      <h2 id="joinTitle"></h2>
+      <p class="lede" id="joinLede"></p>
+      <ul id="joinPoints"></ul>
+      <div id="contact" class="join-contact"><h3 data-i18n="연구실 연락처|Lab contact"></h3><dl class="contact">
+      <div><dt data-i18n="이메일|Email"></dt><dd id="cEmail"></dd>
+           <dt data-i18n="전화|Phone"></dt><dd id="cPhone"></dd></div>
+      <div><dt data-i18n="주소|Address"></dt><dd id="cAddr"></dd></div>
+    </dl></div>
+    </div>
+  </section>
+
+  <section id="admissions" class="rv" hidden>
+    <p class="eyebrow" data-i18n="대학원 입학|Graduate admissions"></p>
+    <h2 id="admissionsTitle"></h2>
+    <p class="lede" id="admissionsIntro"></p>
+    <div class="admissions-dates"><p id="admissionsSpring"></p><p id="admissionsFall"></p></div>
+    <p class="admissions-note" id="admissionsNote"></p>
+    <a class="admissions-link" id="admissionsLink" target="_blank" rel="noopener" data-i18n="대학원 입학절차 안내 ↗|Graduate admissions procedure ↗"></a>
+    <div class="admissions-office"><h3 data-i18n="입학 행정 문의|Admissions inquiries"></h3><p id="admissionsOffice"></p><p id="admissionsPhones"></p><p id="admissionsEmail"></p></div>
+  </section>
+
+
+</main>
+
+<footer id="footer"></footer>
+
+<script src="assets/site.js" defer></script>
+</body>
+</html>

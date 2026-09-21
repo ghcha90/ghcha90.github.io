@@ -1,0 +1,516 @@
+media:
+  input: media
+  output: /media
+
+content:
+  - name: site
+    label: 사이트 기본 정보
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: lab_name_ko
+        label: 연구실 이름 (국문)
+        type: string
+      - name: lab_name_en
+        label: 연구실 이름 (영문)
+        type: string
+      - name: lab_tag
+        label: 상단 소속 표기
+        type: string
+        description: 로고 아래 작게 표시됩니다.
+      - name: hero_headline_ko
+        label: 첫 화면 문구 (국문)
+        type: string
+      - name: hero_headline_en
+        label: 첫 화면 문구 (영문)
+        type: string
+      - name: hero_sub_ko
+        label: 첫 화면 설명 (국문)
+        type: text
+      - name: hero_sub_en
+        label: 첫 화면 설명 (영문)
+        type: text
+      - name: hero_credit_ko
+        label: 첫 화면 하단 소속 (국문)
+        type: string
+      - name: hero_credit_en
+        label: 첫 화면 하단 소속 (영문)
+        type: string
+      - name: research_title_ko
+        label: 연구 분야 제목 (국문)
+        type: string
+      - name: research_title_en
+        label: 연구 분야 제목 (영문)
+        type: string
+      - name: research_lede_ko
+        label: 연구 분야 도입문 (국문)
+        type: text
+      - name: research_lede_en
+        label: 연구 분야 도입문 (영문)
+        type: text
+      - name: teaching_lede_ko
+        label: 강의 설명 (국문)
+        type: text
+      - name: teaching_lede_en
+        label: 강의 설명 (영문)
+        type: text
+      - name: join_title_ko
+        label: 모집 제목 (국문)
+        type: string
+      - name: join_title_en
+        label: 모집 제목 (영문)
+        type: string
+      - name: join_lede_ko
+        label: 모집 안내문 (국문)
+        type: text
+      - name: join_lede_en
+        label: 모집 안내문 (영문)
+        type: text
+      - name: join_points
+        label: 모집 안내 항목
+        type: object
+        list:
+          collapsible:
+            summary: "{ko}"
+        fields:
+          - name: ko
+            label: 국문
+            type: text
+          - name: en
+            label: 영문
+            type: text
+      - name: email
+        label: 이메일
+        type: string
+      - name: phone
+        label: 전화 (표시용)
+        type: string
+      - name: phone_link
+        label: 전화 (링크용)
+        type: string
+        description: "예: +82312202236"
+      - name: address_ko
+        label: 주소 (국문)
+        type: text
+      - name: address_en
+        label: 주소 (영문)
+        type: text
+      - name: footer_ko
+        label: 하단 문구 (국문)
+        type: string
+      - name: footer_en
+        label: 하단 문구 (영문)
+        type: string
+
+  - name: pi
+    label: 연구책임자
+    type: file
+    path: content/pi.json
+    format: json
+    fields:
+      - name: name_ko
+        label: 이름 (국문)
+        type: string
+      - name: name_en
+        label: 이름 (영문)
+        type: string
+      - name: photo
+        label: 사진
+        type: image
+      - name: position_ko
+        label: 직위 (국문)
+        type: string
+      - name: position_en
+        label: 직위 (영문)
+        type: string
+      - name: affiliation_ko
+        label: 소속 (국문)
+        type: string
+      - name: affiliation_en
+        label: 소속 (영문)
+        type: string
+      - name: linkedin_url
+        label: LinkedIn 주소
+        type: string
+      - name: scholar_url
+        label: Google Scholar 프로필 주소
+        type: string
+      - name: blurb_ko
+        label: 소개 (국문)
+        type: text
+      - name: blurb_en
+        label: 소개 (영문)
+        type: text
+      - name: timeline
+        label: 학력과 경력
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{when} — {title_ko}"
+        fields:
+          - name: category
+            label: 학력 / 경력
+            type: select
+            options:
+              values:
+                - { value: education, label: 학력 }
+                - { value: experience, label: 경력 }
+          - name: when
+            label: 기간
+            type: string
+          - name: title_ko
+            label: 제목 (국문)
+            type: string
+          - name: title_en
+            label: 제목 (영문)
+            type: string
+          - name: detail_ko
+            label: 상세 (국문)
+            type: text
+          - name: detail_en
+            label: 상세 (영문)
+            type: text
+      - name: facts
+        label: 활동과 수상
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title_ko}"
+        fields:
+          - name: title_ko
+            label: 제목 (국문)
+            type: string
+          - name: title_en
+            label: 제목 (영문)
+            type: string
+          - name: detail_ko
+            label: 상세 (국문)
+            type: string
+          - name: detail_en
+            label: 상세 (영문)
+            type: string
+
+  - name: research
+    label: 연구 분야
+    type: file
+    path: content/research.json
+    format: json
+    list: true
+    fields:
+      - name: area
+        label: 색상 분류
+        type: select
+        options:
+          values:
+            - { value: wbe,  label: "하수기반역학 (청록)" }
+            - { value: meta, label: "환경 메타게놈 (보라)" }
+            - { value: arg,  label: "항생제 내성 (적색)" }
+            - { value: mat,  label: "자기치유 소재 (황금)" }
+      - name: label
+        label: 영문 분류 표기
+        type: string
+      - name: title_ko
+        label: 제목 (국문)
+        type: string
+      - name: title_en
+        label: 제목 (영문)
+        type: string
+      - name: summary_ko
+        label: 요약 (국문)
+        type: text
+      - name: summary_en
+        label: 요약 (영문)
+        type: text
+      - name: image
+        label: 연구 분야 그림
+        type: image
+      - name: image_alt_ko
+        label: 그림 설명 (국문)
+        type: string
+      - name: image_alt_en
+        label: 그림 설명 (영문)
+        type: string
+      - name: keywords
+        label: 키워드
+        type: string
+        description: "가운뎃점으로 구분. 예: MICP · EICP · HPFRCC"
+      - name: details
+        label: 세부 항목
+        type: object
+        list:
+          collapsible:
+            summary: "{ko}"
+        fields:
+          - name: ko
+            label: 국문
+            type: text
+          - name: en
+            label: 영문
+            type: text
+
+  - name: projects
+    label: 연구과제
+    type: file
+    path: content/projects.json
+    format: json
+    list: true
+    fields:
+      - name: status
+        label: 구분
+        type: select
+        options:
+          values:
+            - { value: current, label: "진행 중" }
+            - { value: past,    label: "참여한 과제" }
+      - name: area
+        label: 색상 분류
+        type: select
+        options:
+          values: [wbe, meta, arg, mat, none]
+      - name: title_ko
+        label: 과제명 (국문)
+        type: string
+      - name: title_en
+        label: 과제명 (영문)
+        type: string
+      - name: when
+        label: 기간
+        type: string
+        description: 참여한 과제에만 사용합니다.
+      - name: funding_ko
+        label: 지원기관·기간 (국문)
+        type: text
+      - name: funding_en
+        label: 지원기관·기간 (영문)
+        type: text
+      - name: summary_ko
+        label: 요약 (국문)
+        type: text
+      - name: summary_en
+        label: 요약 (영문)
+        type: text
+      - name: role_ko
+        label: 역할 (국문)
+        type: string
+      - name: role_en
+        label: 역할 (영문)
+        type: string
+
+      - name: feature_title_ko
+        label: 소개 제목 (국문)
+        type: text
+      - name: feature_title_en
+        label: 소개 제목 (영문)
+        type: text
+      - name: question_ko
+        label: 핵심 질문 (국문)
+        type: text
+      - name: question_en
+        label: 핵심 질문 (영문)
+        type: text
+      - name: overview_ko
+        label: 상세 소개 (국문)
+        type: text
+      - name: overview_en
+        label: 상세 소개 (영문)
+        type: text
+      - name: contribution_ko
+        label: 연구실 역할 (국문)
+        type: text
+      - name: contribution_en
+        label: 연구실 역할 (영문)
+        type: text
+      - name: figure_alt_ko
+        label: 그림 대체 텍스트 (국문)
+        type: text
+      - name: figure_alt_en
+        label: 그림 대체 텍스트 (영문)
+        type: text
+      - name: figure_caption_ko
+        label: 그림 출처·설명 (국문)
+        type: text
+      - name: figure_caption_en
+        label: 그림 출처·설명 (영문)
+        type: text
+      - name: figure
+        label: 과제 그림
+        type: image
+      - name: stages
+        label: 추진 단계
+        type: object
+        list: true
+        fields:
+          - name: title_ko
+            label: 단계 제목 (국문)
+            type: text
+          - name: title_en
+            label: 단계 제목 (영문)
+            type: text
+          - name: body_ko
+            label: 단계 설명 (국문)
+            type: text
+          - name: body_en
+            label: 단계 설명 (영문)
+            type: text
+
+  - name: publications
+    label: 논문
+    type: file
+    path: content/publications.json
+    format: json
+    list: true
+    fields:
+      - name: year
+        label: 연도
+        type: number
+      - name: first_author
+        label: 제1저자 논문
+        type: boolean
+      - name: area
+        label: 색상 분류
+        type: select
+        options:
+          values: [wbe, meta, arg, mat, none]
+      - name: title
+        label: 제목
+        type: text
+        description: "이탤릭은 <em>Mycobacterium</em>, 아래첨자는 N<sub>2</sub>O 형태로 넣습니다."
+      - name: authors
+        label: 저자
+        type: text
+        description: "Cha, G. 는 자동으로 굵게 표시됩니다. 공동 제1저자는 이름 뒤에 † 를 붙입니다."
+      - name: journal
+        label: 저널명
+        type: string
+      - name: detail
+        label: 권호·페이지
+        type: string
+        description: "예: 253, 121269"
+      - name: doi
+        label: DOI
+        type: string
+        description: "10. 으로 시작하는 부분만 입력합니다."
+
+  - name: people
+    label: 구성원
+    type: file
+    path: content/people.json
+    format: json
+    list: true
+    fields:
+      - name: name_ko
+        label: 이름 (국문)
+        type: string
+      - name: name_en
+        label: 이름 (영문)
+        type: string
+      - name: role_ko
+        label: 소속 구분 (국문)
+        type: string
+        description: "예: 학부연구생, 석사과정"
+      - name: role_en
+        label: 소속 구분 (영문)
+        type: string
+      - name: topic_ko
+        label: 연구 주제 (국문)
+        type: string
+      - name: topic_en
+        label: 연구 주제 (영문)
+        type: string
+      - name: photo
+        label: 사진
+        type: image
+
+  - name: news
+    label: 소식
+    type: file
+    path: content/news.json
+    format: json
+    list: true
+    fields:
+      - name: date
+        label: 날짜
+        type: string
+        description: "YYYY-MM-DD 형식. 예: 2026-09-01"
+      - name: title_ko
+        label: 공지 제목 (국문)
+        type: string
+      - name: title_en
+        label: 공지 제목 (영문)
+        type: string
+      - name: body_ko
+        label: 내용 (국문)
+        type: text
+      - name: body_en
+        label: 내용 (영문)
+        type: text
+
+  - name: teaching
+    label: 강의
+    type: file
+    path: content/teaching.json
+    format: json
+    list: true
+    fields:
+      - name: ko
+        label: 교과목명 (국문)
+        type: string
+      - name: en
+        label: 교과목명 (영문)
+        type: string
+
+  - name: admissions
+    label: 대학원 지원 안내
+    type: file
+    path: content/admissions.json
+    format: json
+    fields:
+      - name: title_ko
+        label: 제목 (국문)
+        type: text
+      - name: title_en
+        label: 제목 (영문)
+        type: text
+      - name: intro_ko
+        label: 지원 안내 (국문)
+        type: text
+      - name: intro_en
+        label: 지원 안내 (영문)
+        type: text
+      - name: spring_ko
+        label: 전기 접수 시기 (국문)
+        type: text
+      - name: spring_en
+        label: 전기 접수 시기 (영문)
+        type: text
+      - name: fall_ko
+        label: 후기 접수 시기 (국문)
+        type: text
+      - name: fall_en
+        label: 후기 접수 시기 (영문)
+        type: text
+      - name: note_ko
+        label: 일정 안내 (국문)
+        type: text
+      - name: note_en
+        label: 일정 안내 (영문)
+        type: text
+      - name: office_ko
+        label: 문의 부서 (국문)
+        type: text
+      - name: office_en
+        label: 문의 부서 (영문)
+        type: text
+      - name: url
+        label: 입학절차 안내 링크
+        type: string
+      - name: email
+        label: 교학팀 이메일
+        type: string
+      - name: phones
+        label: 교학팀 전화번호
+        type: string
+        list: true
