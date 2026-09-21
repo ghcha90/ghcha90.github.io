@@ -41,9 +41,9 @@ Promise.all(FILES.map(function(n){
     if(!r.ok) throw new Error(n); return r.json();}).catch(function(){return null;});
 })).then(function(res){
   FILES.forEach(function(n,i){D[n]=res[i];});
-  if(!D.site){el('loadmsg').textContent='페이지를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.';return;}
+  if(!D.site){if(document.documentElement.dataset.prerendered==='true')return;el('loadmsg').textContent='페이지를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.';return;}
   el('loadmsg').hidden=true;
-  render(); initUI();
+  render(); initUI(); document.documentElement.dataset.contentReady='true';
 });
 
 /* ---------- render ---------- */
@@ -55,7 +55,7 @@ function render(){
 
   el('brandName').textContent=t(s,'lab_name');
   el('brandTag').textContent=s.lab_tag||'';
-  document.title=t(s,'lab_name')+' · '+(LANG==='ko'?'수원대학교':'University of Suwon');
+  // Per-page, bilingual search metadata is kept in the HTML head.
   el('heroTitle').textContent=t(s,'hero_headline');
   el('heroSub').innerHTML=t(s,'hero_sub').split(/\n\s*\n/).map(function(p){return '<p>'+esc(p)+'</p>';}).join('');
   el('heroCredit').textContent=t(s,'hero_credit');
@@ -201,7 +201,13 @@ function show(id,on){ el(id).hidden=!(on && (GROUPS[PAGE]||[]).includes(id)); }
 function buildNav(){
   el('navList').innerHTML=NAV.map(function(n){return '<li><a href="'+n[3]+'"'+(n[0]===PAGE?' class="on" aria-current="page"':'')+'>'+(LANG==='en'?n[2]:n[1])+'</a></li>';}).join('');
   var current=NAV.find(function(n){return n[0]===PAGE;})||NAV[0];
-  document.title=(PAGE==='home'?'':(LANG==='en'?current[2]:current[1])+' · ')+t(D.site,'lab_name')+' · '+(LANG==='en'?'University of Suwon':'수원대학교');
+  var title=document.querySelector('title');
+  var description=document.querySelector('meta[name="description"]');
+  document.title=title.dataset[LANG]||title.dataset.ko;
+  description.content=description.dataset[LANG]||description.dataset.ko;
+  document.querySelector('meta[property="og:title"]').content=document.title;
+  document.querySelector('meta[property="og:description"]').content=description.content;
+  document.querySelector('meta[property="og:locale"]').content=LANG==='en'?'en_US':'ko_KR';
 }
 
 function initUI(){

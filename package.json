@@ -1,0 +1,11 @@
+{
+  "name": "gyuhyon-lab-site",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node scripts/check.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
