@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "date": "2026-09-21",
+    "title_ko": "Gyuhyon Lab 웹사이트 개설",
+    "title_en": "Welcome to the Gyuhyon Lab Website",
+    "body_ko": "수원대학교 Gyuhyon Lab의 공식 웹사이트를 개설했습니다.\n\nGyuhyon Lab은 환경미생물학과 유전체학을 바탕으로 미생물과 환경의 관계를 탐구합니다. 이곳에서 연구실의 연구 분야와 진행 중인 과제, 구성원 소식과 연구 참여 기회를 소개할 예정입니다.\n\n새로운 질문과 발견을 함께 나누는 공간으로 만들어 가겠습니다. 관심 있는 학생과 연구자 여러분의 방문과 연락을 환영합니다.",
+    "body_en": "We are pleased to launch the official website of Gyuhyon Lab at the University of Suwon.\n\nOur lab explores the relationships between microbes and their environments through environmental microbiology and genomics. Here, we will share our research interests, ongoing projects, lab updates, and opportunities to join our team.\n\nWe look forward to sharing new questions and discoveries as our lab grows. We welcome students and researchers interested in our work to explore the website and get in touch."
+  }
+]
