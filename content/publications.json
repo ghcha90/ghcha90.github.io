@@ -1,0 +1,102 @@
+[
+  {
+    "year": 2026,
+    "area": "meta",
+    "first_author": false,
+    "title": "A metagenome-based methodology to track genomically recoded strains and assess their effects on indigenous microbes",
+    "authors": "Durán-Viseras, A., Cha, G., Hatt, J. K., Lindner, B. G., Benvenuto, E. M., Zhang, Y., Kunjapur, A. M., & Konstantinidis, K. T.",
+    "journal": "Environmental Science & Technology",
+    "detail": "60(30), 21061–21070",
+    "doi": "10.1021/acs.est.5c15663"
+  },
+  {
+    "year": 2025,
+    "area": "wbe",
+    "first_author": false,
+    "title": "Decay and solid–liquid partitioning of mpox and vaccinia viruses in primary influent and settled solids to guide wastewater-based epidemiology practices",
+    "authors": "Phaneuf, J. R., Cha, G., Hatt, J. K., Konstantinidis, K. T., & Graham, K. E.",
+    "journal": "Water Research",
+    "detail": "284, 123904",
+    "doi": "10.1016/j.watres.2025.123904"
+  },
+  {
+    "year": 2025,
+    "area": "meta",
+    "first_author": false,
+    "title": "Genomic insights into chlorine resistance of a <em>Mycobacterium</em> sp. isolated from treated wastewater effluent",
+    "authors": "Galagoda, R., Cha, G., Hara-Yamamura, H., Honda, R., Konstantinidis, K. T., & Matsuura, N.",
+    "journal": "Water Research",
+    "detail": "283, 123807",
+    "doi": "10.1016/j.watres.2025.123807"
+  },
+  {
+    "year": 2024,
+    "area": "wbe",
+    "first_author": true,
+    "title": "Cold-chain free nucleic acid preservation using porous super-absorbent polymer (PSAP) beads to facilitate wastewater surveillance",
+    "authors": "Cha, G., Huang, Y., Graham, K. E., Luo, A., Chen, W., Hatt, J. K., Konstantinidis, K. T., & Xie, X.",
+    "journal": "Science of the Total Environment",
+    "detail": "939, 173468",
+    "doi": "10.1016/j.scitotenv.2024.173468"
+  },
+  {
+    "year": 2024,
+    "area": "wbe",
+    "first_author": true,
+    "title": "Metagenomic evaluation of the performance of passive Moore swabs for sewage monitoring relative to composite sampling over time-resolved deployments",
+    "authors": "Cha, G., Zhu, K. J., Fischer, J. M., Flores, C. I., Brown, J., Pinto, A., Hatt, J. K., Konstantinidis, K. T., & Graham, K. E.",
+    "journal": "Water Research",
+    "detail": "253, 121269",
+    "doi": "10.1016/j.watres.2024.121269"
+  },
+  {
+    "year": 2024,
+    "area": "meta",
+    "first_author": false,
+    "title": "Sustained bacterial N<sub>2</sub>O reduction at acidic pH",
+    "authors": "He, G., Chen, G., Xie, Y., Swift, C., Cha, G., Konstantinidis, K. T., Radosevich, M., & Löffler, F. E.",
+    "journal": "Nature Communications",
+    "detail": "15, 4092",
+    "doi": "10.1038/s41467-024-48236-x"
+  },
+  {
+    "year": 2024,
+    "area": "meta",
+    "first_author": false,
+    "title": "pH selects for distinct N<sub>2</sub>O-reducing microbiomes in tropical soil microcosms",
+    "authors": "Sun, Y., Yin, Y., He, G., Cha, G., Ayala-del-Río, H. L., González, G., Konstantinidis, K. T., & Löffler, F. E.",
+    "journal": "ISME Communications",
+    "detail": "4(1), ycae070",
+    "doi": "10.1093/ismeco/ycae070"
+  },
+  {
+    "year": 2023,
+    "area": "wbe",
+    "first_author": true,
+    "title": "Parallel deployment of passive and composite samplers for surveillance and variant profiling of SARS-CoV-2 in sewage",
+    "authors": "Cha, G.†, Graham, K. E.†, Zhu, K. J., Rao, G., Lindner, B. G., Kocaman, K., Woo, S., D'Amico, I., Bingham, L. R., Fischer, J. M., Flores, C. I., Spencer, J. W., Yathiraj, P., Chung, H., Biliya, S., Djeddar, N., Burton, L. J., Mascuch, S. J., Brown, J., Bryksin, A., Pinto, A., Hatt, J. K., & Konstantinidis, K. T.",
+    "journal": "Science of the Total Environment",
+    "detail": "866, 161101",
+    "doi": "10.1016/j.scitotenv.2022.161101"
+  },
+  {
+    "year": 2021,
+    "area": "meta",
+    "first_author": true,
+    "title": "The influence of alfalfa–switchgrass intercropping on microbial community structure and function",
+    "authors": "Cha, G., Meinhardt, K. A., Orellana, L. H., Hatt, J. K., Pannu, M. W., Stahl, D. A., & Konstantinidis, K. T.",
+    "journal": "Environmental Microbiology",
+    "detail": "23(11), 6828–6843",
+    "doi": "10.1111/1462-2920.15785"
+  },
+  {
+    "year": 2020,
+    "area": "none",
+    "first_author": true,
+    "title": "Improving energy efficiency of pretreatment for seawater desalination during algal blooms using a novel meshed tube filtration process",
+    "authors": "Cha, G., Choi, S., Lee, H., Kim, K., Ahn, S., & Hong, S.",
+    "journal": "Desalination",
+    "detail": "486, 114477",
+    "doi": "10.1016/j.desal.2020.114477"
+  }
+]

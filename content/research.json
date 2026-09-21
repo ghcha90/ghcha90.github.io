@@ -1,0 +1,106 @@
+[
+  {
+    "area": "wbe",
+    "label": "Wastewater-based epidemiology",
+    "title_ko": "하수기반역학",
+    "title_en": "Wastewater-based epidemiology",
+    "summary_ko": "하수 속 미생물과 바이러스 신호로 지역사회의 건강을 살핍니다.",
+    "summary_en": "We study community health through microbial and viral signals in wastewater.",
+    "keywords": "Moore swab · PSAP bead · ddRT-PCR · variant profiling",
+    "details": [
+      {
+        "ko": "수동식 Moore swab의 최적 체류시간과 복합시료 대비 성능 비교",
+        "en": "Optimal Moore swab deployment time, benchmarked against composite sampling"
+      },
+      {
+        "ko": "PSAP 비드를 이용한 무냉장 RNA 보존",
+        "en": "Cold-chain free RNA preservation with PSAP beads"
+      },
+      {
+        "ko": "ddRT-PCR 정량과 타일드 앰플리콘 기반 변이 프로파일링",
+        "en": "ddRT-PCR quantification and tiled-amplicon variant profiling"
+      }
+    ],
+    "image": "media/research/wbe.png",
+    "image_alt_ko": "물방울을 돋보기로 조사하는 미생물과 지역사회",
+    "image_alt_en": "A microbe examines a water droplet beside a community"
+  },
+  {
+    "area": "meta",
+    "label": "Environmental metagenomics",
+    "title_ko": "환경 미생물 유전체",
+    "title_en": "Environmental microbial genomics",
+    "summary_ko": "유전체와 전사체로 미생물 군집의 구성과 기능을 해석합니다.",
+    "summary_en": "We use genomes and transcriptomes to understand microbial communities and their functions.",
+    "keywords": "MAG · metatranscriptomics · nf-core · population genomics",
+    "details": [
+      {
+        "ko": "간작 토양 군집의 구조·기능 변화 해석",
+        "en": "Community shifts under intercropping in agricultural soil"
+      },
+      {
+        "ko": "처리수에서 분리한 균주의 염소 내성 유전체·전사체 분석",
+        "en": "Genomic and transcriptomic basis of chlorine resistance in effluent isolates"
+      },
+      {
+        "ko": "유전체 재코딩(SynBio) 균주의 환경 내 추적 방법론",
+        "en": "Tracking genomically recoded strains released into the environment"
+      }
+    ],
+    "image": "media/research/meta.png",
+    "image_alt_ko": "DNA를 펼쳐 보는 다양한 미생물",
+    "image_alt_en": "Diverse microbes examine an unrolled DNA helix"
+  },
+  {
+    "area": "arg",
+    "label": "PFAS–ARG co-selection",
+    "title_ko": "환경 오염과 항생제 내성",
+    "title_en": "Pollutants & antibiotic resistance",
+    "summary_ko": "환경 오염물질이 미생물의 항생제 내성 확산에 미치는 영향을 연구합니다.",
+    "summary_en": "We investigate how environmental pollutants affect the spread of antibiotic resistance.",
+    "keywords": "SBR mesocosm · horizontal gene transfer · SOS response · risk indicators",
+    "details": [
+      {
+        "ko": "실험실 SBR 6기에서 PFAS 농도–ARG 반응 곡선 확립",
+        "en": "PFAS concentration–ARG response curves in six bench-scale SBRs"
+      },
+      {
+        "ko": "장쇄와 단쇄 PFAS의 차등 효과 비교",
+        "en": "Long-chain versus short-chain PFAS, compared side by side"
+      },
+      {
+        "ko": "SOS 반응과 이동성 유전 인자의 연결 고리 규명",
+        "en": "Linking the SOS response to mobile genetic elements"
+      }
+    ],
+    "image": "media/research/arg.png",
+    "image_alt_ko": "오염물질 아래에서 유전자 고리를 주고받는 미생물",
+    "image_alt_en": "Microbes exchange a DNA ring beneath pollutant symbols"
+  },
+  {
+    "area": "mat",
+    "label": "Microbial self-healing materials",
+    "title_ko": "미생물 기반 자기치유 소재",
+    "title_en": "Microbial self-healing materials",
+    "summary_ko": "미생물의 기능을 활용해 균열을 스스로 회복하는 소재를 연구합니다.",
+    "summary_en": "We explore microbial functions for materials that can repair their own cracks.",
+    "keywords": "MICP · EICP · encapsulation · HPFRCC · B-SMART",
+    "details": [
+      {
+        "ko": "BRL 공동연구: 극한 환경 대응 후보 균주 라이브러리 구축",
+        "en": "BRL collaboration: a candidate strain library for extreme environments"
+      },
+      {
+        "ko": "qPCR·RT-qPCR·메타유전체를 통한 작동 주체와 기능 분석",
+        "en": "Tracking biological agents and functions using qPCR, RT-qPCR, and metagenomics"
+      },
+      {
+        "ko": "캡슐·담지체 설계 및 반복 균열에서의 재활성·작동 한계 평가",
+        "en": "Carrier design and evaluation of reactivation and operating limits under repeated cracking"
+      }
+    ],
+    "image": "media/research/mat.png",
+    "image_alt_ko": "광물 결정으로 콘크리트 균열을 메우는 미생물",
+    "image_alt_en": "Microbes fill a concrete crack with mineral crystals"
+  }
+]

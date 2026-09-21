@@ -1,0 +1,157 @@
+[
+  {
+    "status": "current",
+    "area": "arg",
+    "title_ko": "과불화화합물(PFAS)의 항생제 내성(ARG) 확산 가속 효과: 하수처리장 미생물 군집 인과 검증",
+    "title_en": "PFAS-driven acceleration of antibiotic resistance gene spread in wastewater microbiomes",
+    "funding_ko": "한국연구재단 개인기초연구사업 핵심연구(기본연구 A), 과학기술정보통신부 · 2026.09 – 2031.08",
+    "funding_en": "National Research Foundation of Korea, Core Research Program (Basic Research A), MSIT · Sep 2026 – Aug 2031",
+    "summary_ko": "하수처리장 미생물 군집에서 PFAS 노출의 영향을 통제 실험으로 검증하고, 분자 기작과 국내 현장 적용성을 5년에 걸쳐 평가합니다.",
+    "summary_en": "A five-year study testing PFAS effects in wastewater communities, investigating molecular mechanisms, and assessing field relevance in Korea.",
+    "role_ko": "연구책임자",
+    "role_en": "Principal investigator",
+    "feature_title_ko": "PFAS와 항생제 내성의 연결고리",
+    "feature_title_en": "Connecting PFAS exposure and antibiotic resistance",
+    "question_ko": "PFAS는 하수처리장 미생물 사이의 항생제 내성 유전자 이동을 촉진할까요?",
+    "question_en": "Does PFAS exposure promote the transfer of antibiotic resistance genes within wastewater microbiomes?",
+    "overview_ko": "오염물질과 내성 유전자의 동시 검출을 넘어, PFAS 노출이 유전자 확산에 미치는 영향을 통제 실험으로 검증합니다. 장쇄·단쇄 PFAS의 차이와 미생물의 스트레스 반응을 분석하고, 실험실에서 얻은 결과가 국내 하수처리장에서도 설명력을 갖는지 평가할 계획입니다.",
+    "overview_en": "We move beyond co-occurrence to test how PFAS exposure affects gene spread in controlled experiments. The project compares long- and short-chain PFAS, examines microbial stress responses, and evaluates whether laboratory findings explain observations in Korean wastewater treatment plants.",
+    "contribution_ko": "차규현 교수가 연구책임자로서 SBR 노출 실험, ARG 정량, 메타게놈·메타전사체 분석, 분자 기작 검증과 현장 조사를 총괄합니다.",
+    "contribution_en": "As principal investigator, Gyuhyon Cha leads reactor exposure experiments, ARG quantification, metagenomic and metatranscriptomic analyses, molecular mechanism testing, and field investigation.",
+    "figure": "media/projects/pfas-arg-concept.webp",
+    "figure_alt_ko": "산업계 PFAS와 생활·병원·축산 유래 내성 유전자가 하수처리장에 유입되고, PFAS 노출에서 스트레스 반응과 유전자 이동으로 이어지는 가설을 나타낸 도식",
+    "figure_alt_en": "Conceptual diagram linking PFAS and antibiotic resistance inputs to wastewater plants and the proposed pathway from PFAS exposure to stress responses and gene transfer.",
+    "figure_caption_ko": "기본연구 A 연구계획서, 그림 1 일부(문서 2쪽). PFAS 노출–스트레스 반응–유전자 전이의 검증 대상 가설을 나타낸 개념도입니다.",
+    "figure_caption_en": "Excerpt from Figure 1, Basic Research A proposal, PDF p. 2. The PFAS–stress response–gene transfer pathway is a hypothesis to be tested.",
+    "stages": [
+      {
+        "title_ko": "1년차 · 실험 기반 구축",
+        "title_en": "Year 1 · Establish the baseline",
+        "body_ko": "SBR 6기를 구축·안정화하고 핵심 ARG와 미생물 군집의 기준선을 확보합니다. 공개 메타게놈 데이터도 함께 분석합니다.",
+        "body_en": "Establish six SBRs, quantify baseline ARGs and microbial communities, and analyze public metagenomes."
+      },
+      {
+        "title_ko": "2–3년차 · 노출과 군집 반응",
+        "title_en": "Years 2–3 · Exposure and community responses",
+        "body_ko": "PFAS 종류·농도별 단기 노출과 장기 실험을 통해 ARG, 이동성 유전 인자, 숙주 미생물과 유전자 발현 변화를 추적합니다.",
+        "body_en": "Compare PFAS types and concentrations in short- and long-term exposures, tracking ARGs, mobile elements, microbial hosts, and gene expression."
+      },
+      {
+        "title_ko": "4–5년차 · 기작과 현장 적용성",
+        "title_en": "Years 4–5 · Mechanisms and field relevance",
+        "body_ko": "모델·환경 균주에서 SOS 반응과 유전자 전이를 검증하고, 산업단지 인접 3개소와 일반 하수처리장 2개소의 계절별 조사로 실험 결과의 적용성을 평가합니다.",
+        "body_en": "Test SOS responses and gene transfer in model and environmental isolates, then assess field relevance through seasonal sampling at three industry-adjacent and two general treatment plants."
+      }
+    ]
+  },
+  {
+    "status": "current",
+    "area": "mat",
+    "title_ko": "극한 환경 대응형 바이오 공정 기반 자기치유 HPFRCC 원천기술 플랫폼 개발",
+    "title_en": "Bio-process based self-healing HPFRCC platform for extreme environments",
+    "funding_ko": "한국연구재단 기초연구실지원사업(BRL), 과학기술정보통신부 · 2026.07 – 2029.06 · 연구책임자 이주하 교수(수원대학교)",
+    "funding_en": "National Research Foundation of Korea, Basic Research Laboratory (BRL), MSIT · Jul 2026 – Jun 2029 · University of Suwon-led collaboration",
+    "summary_ko": "극한 환경 균주 라이브러리, qPCR·RT-qPCR·메타유전체 기반 작동 주체 분석, 캡슐·담지체 설계와 반복 재활성 평가를 담당합니다.",
+    "summary_en": "Our role covers strain libraries, molecular identification of biological agents, capsule and carrier design, and reactivation under repeated damage.",
+    "role_ko": "공동연구원",
+    "role_en": "Co-investigator",
+    "feature_title_ko": "극한 환경에서도 작동하는 자기치유 소재",
+    "feature_title_en": "Self-healing materials for extreme environments",
+    "question_ko": "미생물의 치유 기능을 건설재료 안에서 오래 유지할 수 있을까요?",
+    "question_en": "Can microbial healing functions remain active inside construction materials over time?",
+    "overview_ko": "고성능 섬유보강 시멘트 복합체(HPFRCC)에 미생물·효소 기반 광물화 공정을 결합하는 공동연구입니다. 상온의 기본 작동성에서 출발해 단일 극한 환경, 복합 환경과 반복 하중으로 조건을 확장하며 자기치유의 지속성과 작동 한계를 규명합니다.",
+    "overview_en": "This collaborative project integrates microbial and enzyme-induced mineralization into high-performance fiber-reinforced cementitious composites (HPFRCC). It progresses from baseline conditions to single and combined environmental stresses and repeated loading to investigate healing persistence and operating limits.",
+    "contribution_ko": "Gyuhyon Lab은 후보 균주 발굴과 유전체 분석, 캡슐·담지체 설계를 담당합니다. qPCR·RT-qPCR·메타유전체 분석으로 투입 균주와 토착 미생물의 생존·활성을 추적하고, 재료·바이오 공정·AI 연구진과 결과를 연결합니다.",
+    "contribution_en": "Gyuhyon Lab develops candidate strain libraries and capsule/carrier systems and performs genomic analyses. We use qPCR, RT-qPCR, and metagenomics to track the survival and activity of introduced and indigenous microbes, connecting the findings with materials, bioprocess, and AI research.",
+    "figure": "media/projects/brl-roadmap.webp",
+    "figure_alt_ko": "균주 발굴과 캡슐 설계에서 단일 극한 환경 검증, 복합 환경과 자기치유 성능 평가로 확장하는 BRL 공동연구의 3개년 흐름도",
+    "figure_alt_en": "Three-year BRL roadmap from strain discovery and carrier design to single-stress testing and combined-environment healing assessment.",
+    "figure_caption_ko": "기초연구실 연구개발계획서, 그림 3(문서 8쪽). 전체 공동연구의 3개년 추진 구상이며, Gyuhyon Lab의 담당 내용은 아래에 정리했습니다. 그림 속 한글 표기는 원문을 유지했습니다.",
+    "figure_caption_en": "Figure 3, BRL proposal, PDF p. 8. This roadmap covers the full collaboration; Gyuhyon Lab’s responsibilities are outlined below. Korean labels are retained from the original.",
+    "stages": [
+      {
+        "title_ko": "1년차 · 균주와 전달체 확보",
+        "title_en": "Year 1 · Strains and delivery systems",
+        "body_ko": "유전체 정보와 극한 환경 시료의 집적배양을 바탕으로 후보 균주 라이브러리를 구축하고, 미생물·효소를 보호하는 기본 캡슐·담지체를 설계합니다.",
+        "body_en": "Build a candidate strain library using genomic evidence and enrichment cultures from extreme environments, and design protective capsules and carriers."
+      },
+      {
+        "title_ko": "2년차 · 생존과 실제 활성 구분",
+        "title_en": "Year 2 · Distinguish survival from activity",
+        "body_ko": "극한 환경별 캡슐 성능을 보완합니다. qPCR로 균주 생존을, RT-qPCR로 유전자 발현을, 메타유전체로 군집 변화를 분석해 치유의 생물학적 작동 주체를 추적합니다.",
+        "body_en": "Adapt carriers to individual stresses. Track strain survival with qPCR, expression with RT-qPCR, and community shifts with metagenomics to identify biological contributors to healing."
+      },
+      {
+        "title_ko": "3년차 · 반복 작동과 설계 원칙",
+        "title_en": "Year 3 · Repeated activation and design principles",
+        "body_ko": "복합 환경과 반복 균열에서 캡슐 파괴–노출–재활성 거동을 분석하고, 다층·다중 트리거 구조의 재사용성과 작동 한계를 평가해 설계 원칙을 제시합니다.",
+        "body_en": "Analyze capsule rupture, exposure, and reactivation under combined stresses and repeated cracking; evaluate reuse and operating limits to establish design principles."
+      }
+    ]
+  },
+  {
+    "status": "past",
+    "area": "none",
+    "title_ko": "도시하수 및 축산폐수 내 항생제내성유전자(ARG)의 확산 및 위해성 평가",
+    "title_en": "Spread and risk assessment of ARGs in municipal and livestock wastewater",
+    "funding_ko": "수원대학교 신임교원 정착연구비 · 2025.03 – 2026.07 · 연구책임자 · 완료",
+    "funding_en": "University of Suwon, new faculty start-up grant · Mar 2025 – Jul 2026 · Principal investigator · completed",
+    "summary_ko": "",
+    "summary_en": "",
+    "role_ko": "연구책임자 · 완료",
+    "role_en": "Principal investigator · completed",
+    "when": "2025.03 – 2026.07"
+  },
+  {
+    "status": "past",
+    "area": "none",
+    "when": "2022.09 – 2025.08",
+    "title_ko": "PITS: PSAP 비드를 활용한 무냉장 핵산 보존 기술 개발",
+    "title_en": "PITS: cold-chain free nucleic acid preservation with PSAP beads",
+    "funding_ko": "미국 국립과학재단(NSF) · 연구원",
+    "funding_en": "U.S. National Science Foundation · researcher",
+    "summary_ko": "",
+    "summary_en": "",
+    "role_ko": "",
+    "role_en": ""
+  },
+  {
+    "status": "past",
+    "area": "none",
+    "when": "2020.08 – 2023.06",
+    "title_ko": "대학 캠퍼스 COVID-19 하수 감시 프로그램",
+    "title_en": "Campus COVID-19 wastewater surveillance program",
+    "funding_ko": "Georgia Institute of Technology · 연구원",
+    "funding_en": "Georgia Institute of Technology · researcher",
+    "summary_ko": "",
+    "summary_en": "",
+    "role_ko": "",
+    "role_en": ""
+  },
+  {
+    "status": "past",
+    "area": "none",
+    "when": "2018.10 – 2023.09",
+    "title_ko": "Dimensions: 아산화질소 환원과 토양 배출 제어에서 미생물 다양성의 역할",
+    "title_en": "Dimensions: microbial diversity in N<sub>2</sub>O reduction and soil emissions",
+    "funding_ko": "미국 국립과학재단(NSF) · 연구원",
+    "funding_en": "U.S. National Science Foundation · researcher",
+    "summary_ko": "",
+    "summary_en": "",
+    "role_ko": "",
+    "role_en": ""
+  },
+  {
+    "status": "past",
+    "area": "none",
+    "when": "2016.07 – 2020.06",
+    "title_ko": "중동 지역 최적화 저에너지 해수담수화 플랜트 기술 개발",
+    "title_en": "Low-energy seawater desalination for the Middle East",
+    "funding_ko": "국토교통부(국토교통과학기술진흥원) · 연구원",
+    "funding_en": "Korea Ministry of Land, Infrastructure and Transport · researcher",
+    "summary_ko": "",
+    "summary_en": "",
+    "role_ko": "",
+    "role_en": ""
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "name_ko": "차규현 Gyuhyon Cha",
+  "name_en": "Gyuhyon Cha",
+  "photo": "media/gyuhyon-cha.jpg",
+  "blurb_ko": "",
+  "blurb_en": "",
+  "timeline": [
+    {
+      "when": "2025.04 – 현재",
+      "title_ko": "수원대학교 조교수",
+      "title_en": "Assistant Professor, University of Suwon",
+      "detail_ko": "건설환경에너지공학부 환경에너지공학 전공",
+      "detail_en": "Environmental & Energy Engineering",
+      "category": "experience"
+    },
+    {
+      "when": "2024.06 – 2025.03",
+      "title_ko": "박사후연구원, University of California, Irvine",
+      "title_en": "Postdoctoral Scholar, University of California, Irvine",
+      "detail_ko": "연구책임자: Sunny Jiang 교수",
+      "detail_en": "PI: Dr. Sunny Jiang",
+      "category": "experience"
+    },
+    {
+      "when": "2018.08 – 2024.05",
+      "title_ko": "공학박사, Georgia Institute of Technology",
+      "title_en": "Ph.D., Georgia Institute of Technology",
+      "detail_ko": "환경공학 · 지도교수: Kostas T. Konstantinidis",
+      "detail_en": "Environmental Engineering · Advisor: Dr. Kostas T. Konstantinidis",
+      "category": "education"
+    },
+    {
+      "when": "2016.03 – 2018.08",
+      "title_ko": "공학석사, 고려대학교",
+      "title_en": "M.S., Korea University",
+      "detail_ko": "물과 환경 · 지도교수: 홍승관",
+      "detail_en": "Water and Ecosystems · Advisor: Dr. Seungkwan Hong",
+      "category": "education"
+    },
+    {
+      "when": "2009.03 – 2016.02",
+      "title_ko": "공학사, 고려대학교",
+      "title_en": "B.S., Korea University",
+      "detail_ko": "건축사회환경공학부",
+      "detail_en": "Civil and Architectural Engineering",
+      "category": "education"
+    }
+  ],
+  "facts": [
+    {
+      "title_ko": "정회원",
+      "title_en": "Member",
+      "detail_ko": "대한환경공학회 · 대한상하수도학회 · 한국물환경학회",
+      "detail_en": "KSEE · Korean Society of Water & Wastewater · Korean Society on Water Environment"
+    },
+    {
+      "title_ko": "Fulbright 박사유학 장학금 (2018)",
+      "title_en": "Fulbright Graduate Study Award (2018)",
+      "detail_ko": "미국 국무부, 최종 선발",
+      "detail_en": "U.S. Department of State, principal candidate"
+    },
+    {
+      "title_ko": "IWA Young Water Professionals 한국지부 부의장",
+      "title_en": "Vice Chair, IWA Young Water Professionals Korea",
+      "detail_ko": "",
+      "detail_en": ""
+    }
+  ],
+  "scholar_url": "https://scholar.google.com/citations?user=6D4ZJxgAAAAJ&hl=ko",
+  "linkedin_url": "https://www.linkedin.com/in/gyuhyoncha",
+  "position_ko": "조교수",
+  "position_en": "Assistant Professor",
+  "affiliation_ko": "수원대학교 건설환경에너지공학부 환경에너지공학 전공",
+  "affiliation_en": "Environmental & Energy Engineering, University of Suwon"
+}
